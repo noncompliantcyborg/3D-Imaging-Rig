@@ -1,0 +1,7 @@
+#In PowerShell, Set working directory to where you’ve located  ffmpeg.exe 
+
+cd C:\ffmpeg\bin
+
+#Execute ffmpeg to extract frames. Adjust for your input file, frames per second (fps) you want to extract, and desired output file-naming convention. You must create the file for the output to go in before running.
+
+.\ffmpeg.exe -i c:\scans\input.MP4 -vf fps=60 c:\frames\output_%04d.png
