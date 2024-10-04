@@ -1,3 +1,5 @@
+#Download the appropriate ffmpeg for your machine - essentials version should be sufficient https://www.ffmpeg.org/download.html  . It is also helpful to move your ffmpeg download to the C: drive
+
 #In PowerShell, Set working directory to where you’ve located  ffmpeg.exe 
 
 cd C:\ffmpeg\bin
